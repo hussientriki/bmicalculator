@@ -1,5 +1,3 @@
-
-
 while True:
     weight = input("enter your weight (kg) : ")
     height = input("enter your heiht  (m)  : ")
@@ -14,7 +12,7 @@ while True:
           print("Overweight")
     if bmi >= 30:
        print("Obesity")
-    desire = input('do you wanna continue ? then press (y) or press (q) to quit ')
+    desire = input('do you wanna continue ? then press (y) or press (q) to quit : ')
     if desire == "y":
         continue
     if desire == "q":
